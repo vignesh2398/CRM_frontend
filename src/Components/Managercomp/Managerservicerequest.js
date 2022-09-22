@@ -5,7 +5,7 @@ import { url1 } from '../../App'
 
 
 export const Managerservicerequest = () => {
-  url1
+  
   var url=`${url1}/api/managerDashboardRoute/servicerequest`
   const handlechange=(e)=>{
     const name=e.target.name;
