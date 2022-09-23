@@ -4,9 +4,9 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import { AdminHomePage } from './AdminHomePage'
 import { url1 } from '../App'
-var url=`${url1}/api/admindashboard/servicerequest`
 
 export const AdminPage = () => {
+  var url=`${url1}/api/admindashboard/servicerequest`
     const navigate = useNavigate();
     const [servicerequest,setservicerequest]=useState({
         title: "",
