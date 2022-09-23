@@ -30,7 +30,7 @@ import { Newpassword } from './Newpassword';
 
 
 
-export const url1="https://crmback123.herokuapp.com/"
+export const url1="https://crmback123.herokuapp.com"
 function App() {
   return (
     <div className="App">
