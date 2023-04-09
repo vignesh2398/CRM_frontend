@@ -30,7 +30,7 @@ export const Newpassword = () => {
           }
           else
           {
-              console.log("error")
+              console.log("errorrrrrr")
       
              
           }
